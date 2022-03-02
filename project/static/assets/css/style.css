@@ -533,14 +533,14 @@ img {
 
 @media (max-width: 667px) {
   #hero {
-    max-height: 60vh; 
+    max-height: 63vh; 
   }
   
   #hero .carousel-item {
-    height: 60vh;
+    height: 63vh;
   }
   #hero > .carousel-item > img {
-    width: 100%;
+    height: 100vh;
   }
 }
 
@@ -617,7 +617,6 @@ section {
   .breadcrumbs {
     margin-top: 70px;
   }
-}
 
 .breadcrumbs h2 {
   font-size: 24px;
@@ -802,6 +801,9 @@ section {
   .about .content, .about .accordion-list {
     padding-left: 0;
     padding-right: 0;
+  }
+  #hero > .carousel-item > img {
+    width: 100%;
   }
 }
 
